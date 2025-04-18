@@ -5,7 +5,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import interactionPlugin from '@fullcalendar/interaction';
 
 const CalendarView: React.FC = () => {
-  const [events, setEvents] = useState([
+  const [events] = useState([
     { title: 'Design review', date: '2025-04-21', time: '10AM' },
     { title: 'Sales meeting', date: '2025-04-21', time: '2PM' },
     { title: 'Sam\'s birthday party', date: '2025-04-22', time: '2PM' },

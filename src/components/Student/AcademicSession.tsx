@@ -9,7 +9,7 @@ const AcademicSession = () => {
   const { isOpen: isCreateModalOpen, openModal: openCreateModal, closeModal: closeCreateModal } = useModal();
   const { isOpen: isActionModalOpen, openModal: openActionModal, closeModal: closeActionModal } = useModal();
 
-  const [selectedSession, setSelectedSession] = useState<{ id: number; name: string; academic: string } | null>(null);
+  //const [selectedSession] = useState<{ id: number; name: string; academic: string } | null>(null);
   const [sessions, setSessions] = useState([
     { id: 1, name: "2025-2026", academic: "2025-2026" },
     { id: 2, name: "2024-2025", academic: "2024-2025" },
@@ -82,7 +82,6 @@ const AcademicSession = () => {
                     <button
                       className="bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-lg transition"
                       onClick={() => {
-                        setSelectedSession(session);
                         openActionModal(); // Use openActionModal from useModal
                       }}
                     >

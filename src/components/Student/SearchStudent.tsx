@@ -37,7 +37,7 @@ const SearchStudent = () => {
                                             src="/images/user/EdPrime_uni_logo.png" // Replace with your actual image path
                                             alt="Logo"
                                             className="w-24 h-24 mb-4"
-                                            onError={(e) => (e.target.src = "https://via.placeholder.com/100")} 
+                                            onError={(e) => ((e.target as HTMLImageElement).src = "https://via.placeholder.com/100")}
                                             />
                                         <p className="mt-4 text-gray-600 text-lg font-medium">Please Search for a Student</p>
                                     </div>

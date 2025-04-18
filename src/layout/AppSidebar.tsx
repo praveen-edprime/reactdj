@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useRef, useState } from "react";
-import { Link, useLocation } from "react-router";
+import { useState } from "react";
+import { Link } from "react-router";
 
 // Import icons from an icon library (assumed to be defined elsewhere)
 import {
