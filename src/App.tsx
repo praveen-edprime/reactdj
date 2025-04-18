@@ -23,7 +23,7 @@ import SearchStudent from "./components/Student/SearchStudent.tsx";
 import AcademicSession from "./components/Student/AcademicSession.tsx";
 import SimplePopupExample from "./components/Student/SimplePopupExample.tsx";
 
-
+ 
 
 
 export default function App() {

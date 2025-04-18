@@ -25,14 +25,14 @@ const ExampleChart: React.FC<ExampleChartProps> = ({ title = 'Monthly Sales' }) 
   const data: ChartData<'bar'> = {
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
     datasets: [
-      {
+      { 
         label: 'Sales',
         data: [150, 200, 180, 220, 170],
         backgroundColor: 'rgba(75,192,192,0.6)',
         borderRadius: 6,
       },
     ],
-  };
+  }; 
 
   const options: ChartOptions<'bar'> = {
     responsive: true,
