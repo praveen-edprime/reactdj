@@ -8,7 +8,7 @@ import UserInfoTable from "../components/UserProfile/UserInfoTable";
 import RoundChart from "../components/charts/round/RoundChartOne";
 import UserFeesInfo from "../components/UserProfile/UserFeesInfo";
 
-export default function UserProfiles() {
+export default function StudentProfile() {
   const [activeTab, setActiveTab] = useState("personal");
   const [personalSubTab, setPersonalSubTab] = useState("profile");
   const [academicsSubTab, setAcademicsSubTab] = useState("optionalsubject");

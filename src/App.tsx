@@ -23,6 +23,8 @@ import SearchStudent from "./components/Student/SearchStudent.tsx";
 import AcademicSession from "./components/Student/AcademicSession.tsx";
 import SimplePopupExample from "./components/Student/SimplePopupExample.tsx";
 import FormPattern from "./components/Student/FormPattern.tsx";
+import StudentProfile from "./pages/StudentProfile.tsx";
+import Fee from "./pages/Fee.tsx";
 
  
 
@@ -39,6 +41,8 @@ export default function App() {
 
             {/* Others Page */}
             <Route path="/profile" element={<UserProfiles />} />
+            <Route path="/studentprofile" element={<StudentProfile />} />
+            <Route path="/fee" element={<Fee />} />
             <Route path="/StudentRegister" element={<StudentRegister />} />
             <Route path="/SearchStudent" element={<SearchStudent />} />
             <Route path="/AcademicSession" element={<AcademicSession />} />

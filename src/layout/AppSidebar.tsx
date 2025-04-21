@@ -6,6 +6,7 @@ import {
   BoxCubeIcon,
   CalenderIcon,
   ChevronDownIcon,
+  DollarLineIcon,
   GridIcon,
   HorizontaLDots,
   ListIcon,
@@ -80,6 +81,16 @@ const navItems: NavItem[] = [
     icon: <UserCircleIcon />,
     name: "User Profile",
     path: "/profile",
+  },
+  {
+    icon: <UserCircleIcon />,
+    name: "Student Profile",
+    path: "/studentprofile",
+  },
+  {
+    icon: <DollarLineIcon />,
+    name: "Fee",
+    path: "/fee",
   },
 ];
 
