@@ -63,6 +63,36 @@ const Calendar: React.FC = () => {
                     <textarea id="w3review" name="w3review" rows={2} cols={10}></textarea>
                   </td>
                 </tr>
+                <tr className="border-b hover:bg-gray-50">
+                  <td className="px-4 py-2">3</td>
+                  <td className="px-4 py-2">117610</td>
+                  <td className="px-4 py-2">Toshti</td>
+                  <td className="px-4 py-2">50</td>
+                  <td className="px-4 py-2">35</td>
+                  <td className="px-4 py-2">
+                    <textarea id="w3review" name="w3review" rows={2} cols={10}></textarea>
+                  </td>
+                </tr>
+                <tr className="border-b hover:bg-gray-50">
+                  <td className="px-4 py-2">3</td>
+                  <td className="px-4 py-2">117610</td>
+                  <td className="px-4 py-2">Toshti</td>
+                  <td className="px-4 py-2">50</td>
+                  <td className="px-4 py-2">35</td>
+                  <td className="px-4 py-2">
+                    <textarea id="w3review" name="w3review" rows={2} cols={10}></textarea>
+                  </td>
+                </tr>
+                <tr className="border-b hover:bg-gray-50">
+                  <td className="px-4 py-2">3</td>
+                  <td className="px-4 py-2">117610</td>
+                  <td className="px-4 py-2">Toshti</td>
+                  <td className="px-4 py-2">50</td>
+                  <td className="px-4 py-2">35</td>
+                  <td className="px-4 py-2">
+                    <textarea id="w3review" name="w3review" rows={2} cols={10}></textarea>
+                  </td>
+                </tr>
                 {/* More rows can be added here */}
               </tbody>
             </table>
