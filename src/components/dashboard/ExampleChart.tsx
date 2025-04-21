@@ -55,3 +55,4 @@ const ExampleChart: React.FC<ExampleChartProps> = ({ title = 'Monthly Sales' }) 
 };
 
 export default ExampleChart;
+ 

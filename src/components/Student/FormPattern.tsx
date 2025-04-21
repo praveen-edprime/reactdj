@@ -24,16 +24,44 @@ const Calendar: React.FC = () => {
             <table className="min-w-full bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
               <thead className="bg-gray-100">
                 <tr>
-                  <th className="px-4 py-2 text-left text-gray-600">Date</th>
-                  <th className="px-4 py-2 text-left text-gray-600">Event</th>
-                  <th className="px-4 py-2 text-left text-gray-600">Details</th>
+                  <th className="px-4 py-2 text-left text-gray-600">#	</th>
+                  <th className="px-4 py-2 text-left text-gray-600">Roll No</th>
+                  <th className="px-4 py-2 text-left text-gray-600">Scholar Number</th>
+                  <th className="px-4 py-2 text-left text-gray-600">Working Days</th>
+                  <th className="px-4 py-2 text-left text-gray-600">No. of Present Days</th>
+                  <th className="px-4 py-2 text-left text-gray-600">Remarks</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b hover:bg-gray-50">
-                  <td className="px-4 py-2">2023-10-01</td>
-                  <td className="px-4 py-2">Event 1</td>
-                  <td className="px-4 py-2">Details about Event 1</td>
+                  <td className="px-4 py-2">1</td>
+                  <td className="px-4 py-2">117610</td>
+                  <td className="px-4 py-2">Toshti</td>
+                  <td className="px-4 py-2">50</td>
+                  <td className="px-4 py-2">35</td>
+                  <td className="px-4 py-2">
+                    <textarea id="w3review" name="w3review" rows={2} cols={10}></textarea>
+                  </td>
+                </tr>
+                <tr className="border-b hover:bg-gray-50">
+                  <td className="px-4 py-2">2</td>
+                  <td className="px-4 py-2">117610</td>
+                  <td className="px-4 py-2">Toshti</td>
+                  <td className="px-4 py-2">50</td>
+                  <td className="px-4 py-2">35</td>
+                  <td className="px-4 py-2">
+                    <textarea id="w3review" name="w3review" rows={2} cols={10}></textarea>
+                  </td>
+                </tr>
+                <tr className="border-b hover:bg-gray-50">
+                  <td className="px-4 py-2">3</td>
+                  <td className="px-4 py-2">117610</td>
+                  <td className="px-4 py-2">Toshti</td>
+                  <td className="px-4 py-2">50</td>
+                  <td className="px-4 py-2">35</td>
+                  <td className="px-4 py-2">
+                    <textarea id="w3review" name="w3review" rows={2} cols={10}></textarea>
+                  </td>
                 </tr>
                 {/* More rows can be added here */}
               </tbody>
@@ -45,9 +73,10 @@ const Calendar: React.FC = () => {
             <button
               type="button"
               onClick={() => setShowForm(!showForm)}
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
+              className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300"
             >
-              {showForm ? "Hide Form →" : "Show Form ←"}
+              {showForm ? "<" : ">"}
+
             </button>
           </div>
 

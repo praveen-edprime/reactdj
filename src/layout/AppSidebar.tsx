@@ -47,7 +47,7 @@ const navItems: NavItem[] = [
           { name: "Search Student", path: "/SearchStudent", pro: false },
           { name: "Academic Session", path: "/AcademicSession", pro: false },
           { name: "SimplePopupExample", path: "/SimplePopupExample", pro: false },
-          { name: "Images", path: "/images", pro: false },
+          { name: "FormPattern", path: "/FormPattern", pro: false },
           { name: "Videos", path: "/videos", pro: false },
         ],
       },
