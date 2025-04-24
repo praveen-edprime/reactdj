@@ -25,7 +25,7 @@ import SimplePopupExample from "./components/Student/SimplePopupExample.tsx";
 import FormPattern from "./components/Student/FormPattern.tsx";
 import StudentProfile from "./pages/StudentProfile.tsx";
 import Fee from "./pages/Fee.tsx";
-
+import EdprimeExclusive from "./pages/EdprimeExclusive.tsx";
  
 
 
@@ -43,6 +43,9 @@ export default function App() {
             <Route path="/profile" element={<UserProfiles />} />
             <Route path="/studentprofile" element={<StudentProfile />} />
             <Route path="/fee" element={<Fee />} />
+            <Route path="/edprime-exclusive" element={<EdprimeExclusive />} />
+
+            {/* Components */}
             <Route path="/StudentRegister" element={<StudentRegister />} />
             <Route path="/SearchStudent" element={<SearchStudent />} />
             <Route path="/AcademicSession" element={<AcademicSession />} />

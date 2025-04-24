@@ -92,6 +92,11 @@ const navItems: NavItem[] = [
     name: "Fee",
     path: "/fee",
   },
+  {
+    icon: <DollarLineIcon />,
+    name: "Edprime Exclusive",
+    path: "/edprime-exclusive",
+  },
 ];
 
 // Define secondary navigation items (displayed under "Others" section)
