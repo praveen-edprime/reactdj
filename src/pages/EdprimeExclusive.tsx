@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { FaArrowLeft, FaArrowRight, FaSearch } from 'react-icons/fa';
+import React, { useEffect, useState } from 'react';
+import { FaSearch } from 'react-icons/fa';
 import Label from '../components/form/Label';
 import Input from '../components/form/input/InputField';
 import Select from '../components/form/Select';
@@ -386,20 +386,20 @@ export default function EdprimeExclusive() {
 
             {/* Online Content Section */}
             <div className="bg-gray-100 py-10 relative">
-                <div className="text-center mb-10">
-                    <h2 className="text-4xl font-bold">Online Content</h2>
-                </div>
-                <div className='mb-10'>
-                    <ContentSlider data={onlineSliderData} />
-                </div>
-                <div className='mb-10'>
-                    <ContentSlider data={otherSliderData} />
-                </div>
-                <div className='mb-10'>
-                    <ContentSlider data={knowledgeSliderData} />
-                </div>
-                <div className='mb-10'>
-                    <ContentSlider data={contentSliderData} />
+                <div className="text-center">
+                    <h2 className="text-4xl font-bold mb-5">Online Content</h2>
+                    <div className='mb-10'>
+                        <ContentSlider data={onlineSliderData} />
+                    </div>
+                    <div className='mb-10'>
+                        <ContentSlider data={otherSliderData} />
+                    </div>
+                    <div className='mb-10'>
+                        <ContentSlider data={knowledgeSliderData} />
+                    </div>
+                    <div className='mb-10'>
+                        <ContentSlider data={contentSliderData} />
+                    </div>
                 </div>
             </div >
 
