@@ -19,13 +19,13 @@ const ContentSlider = ({ data }: ContentSliderProps) => {
     return (
         <div className="relative max-w-6xl mx-auto px-4">
             {/* Arrows */}
-            <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 z-10">
-                <button ref={prevRef} className="text-blue-600 text-3xl hover:text-blue-800">
+            <div className="absolute -left-6 top-1/2 transform -translate-y-1/2 z-10">
+                <button ref={prevRef} className="text-white hover:text-blue-800 bg-blue-400 hover:bg-white rounded-2xl p-2">
                     <FaArrowLeft />
                 </button>
             </div>
-            <div className="absolute -right-3 top-1/2 transform -translate-y-1/2 z-10">
-                <button ref={nextRef} className="text-blue-600 text-3xl hover:text-blue-800">
+            <div className="absolute -right-5 top-1/2 transform -translate-y-1/2 z-10">
+                <button ref={nextRef} className="text-white hover:text-blue-800 bg-blue-400 hover:bg-white rounded-2xl p-2">
                     <FaArrowRight />
                 </button>
             </div>

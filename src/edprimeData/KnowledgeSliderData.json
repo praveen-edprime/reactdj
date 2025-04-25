@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Edprime Student Corner",
+        "description": "Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/youtube1.png"
+    },
+    {
+        "title": "Edprime Sustainability",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/youtube4.png"
+    },
+    {
+        "title": "Complete guide & Tutorials",
+        "description":
+            "Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/chatgpt_Y1.jpg"
+    },
+    {
+        "title": "TED ED",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/TED_ED.png"
+    },
+    {
+        "title": "Stories",
+        "description": "Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/kahaniyawithSM.jpg"
+    },
+    {
+        "title": "Repair Earth",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/Repair_Earth.png"
+    }
+]

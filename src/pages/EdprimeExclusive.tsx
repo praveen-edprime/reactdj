@@ -7,6 +7,12 @@ import LearningCardGrid from '../components/form/LearningCardGrid';
 import CardGrid from '../components/form/CardGrid';
 import 'swiper/swiper-bundle.css'; // Import Swiper styles
 import ContentSlider from '../components/form/ContentSlider';
+import BannerSlider from '../components/form/BannerSlider';
+import LearningItems from '../edprimeData/LearningItems.json';
+import OnlineSliderData from '../edprimeData/OnlineSliderData.json';
+import OtherSliderData from '../edprimeData/OtherSliderData.json';
+import KnowledgeSliderData from '../edprimeData/KnowledgeSliderData.json';
+import ContentSliderData from '../edprimeData/ContentSliderData.json';
 
 // Image slider images
 const images = [
@@ -26,213 +32,6 @@ const options = [
     { value: "greenboard", label: "Green Board" },
 ];
 
-const learningItems = [
-    {
-        title: "Sunokitaab",
-        desc: "Sunokitaab is India’s largest audio-based learning platform for students. It provides audio-based learning content for school students from classes KG to 12th.",
-        img: "/images/edprime-exclusive/sunokitaab.png",
-        url: "https://sunokitaab.com"
-    },
-    {
-        title: "Basics of Computer",
-        desc: "Learn Information Technology terminology and basics of computers. This course covers a broad spectrum of Hardware & Software solutions.",
-        img: "/images/edprime-exclusive/logo-3.png",
-        url: "https://www.digitalteacher.in/computer-basics"
-    },
-    {
-        title: "Burlington",
-        desc: "The Burlington English Read-A-Thon Quest for the Classics has amazing resources to enthuse your children and students right the way through this summer.",
-        img: "/images/edprime-exclusive/BE-044.png",
-        url: "https://www.burlingtonenglish.in/"
-    },
-    {
-        title: "Multibhashi",
-        desc: "A language learning app cater to the needs of language learners worldwide.",
-        img: "/images/edprime-exclusive/logo1.png",
-        url: "https://www.multibhashi.com/"
-    },
-    {
-        title: "Learn With Comics",
-        desc: "Have fun learning with our comics! Designed to make learning enjoyable and interactive for students of all ages. Start reading today.",
-        img: "/images/edprime-exclusive/smallcomics.png",
-        url: "https://www.learnwithcomics.com/"
-    }
-];
-
-const onlineSliderData = [
-    {
-        title: 'English',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/English.jpg',
-    },
-    {
-        title: 'Hindi',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/Hindi.jpg',
-    },
-    {
-        title: 'Mathematics',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/Mathematics.jpg',
-    },
-    {
-        title: 'Computer',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/Computer.jpg',
-    },
-    {
-        title: 'General Knowledge',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/General_Knowledge.jpg',
-    },
-    {
-        title: 'Poems and Stories',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/Poem_and_Stories.jpg',
-    },
-];
-
-const otherSliderData = [
-    {
-        title: 'Spelling Bee',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/spelling_bee.png',
-    },
-    {
-        title: 'Free Audio Stories for kids',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/storynory.jpg',
-    },
-    {
-        title: 'A free typing tutor',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/typing.jpg',
-    },
-    {
-        title: 'Letter Formation',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/Letter_Formation.jpg',
-    },
-    {
-        title: 'NCERT Textbooks',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/EcoWarrior.png',
-    },
-    {
-        title: 'Augli',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/AUGLI_Banner.png',
-    },
-];
-
-const knowledgeSliderData = [
-    {
-        title: 'Edprime Student Corner',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/youtube1.png',
-    },
-    {
-        title: 'Edprime Sustainability',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/youtube4.png',
-    },
-    {
-        title: 'Complete guide & Tutorials',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/chatgpt_Y1.jpg',
-    },
-    {
-        title: 'TED ED',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/TED_ED.png',
-    },
-    {
-        title: 'Stories',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/kahaniyawithSM.jpg',
-    },
-    {
-        title: 'Repair Earth',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/Repair_Earth.png',
-    },
-];
-
-const contentSliderData = [
-    {
-        title: 'EdPrime Scholarships',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/EDPRIME_SCHOLARSHIPS_BANNER.png',
-    },
-    {
-        title: 'EdPrime Teacher Wellness',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/youtube3.png',
-    },
-    {
-        title: 'EdPrime Parenting',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/youtube2.png',
-    },
-    {
-        title: 'Olabs',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/OLABS.png',
-    },
-    {
-        title: 'Eco Warrior',
-        description:
-            'Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/EcoWarrior.png',
-    },
-    {
-        title: 'Origami Magic',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/Origami-Magic.jpg',
-    },
-    {
-        title: 'Mental Health',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/MentalHealth-Exclusive.jpg',
-    },
-    {
-        title: 'Moral Stories',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/Moral.png',
-    },
-    {
-        title: 'Kahaniyan with Shashi Mam',
-        description:
-            'Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information',
-        image: '/images/edprime-exclusive/kahaniyawithSM.jpg',
-    },
-];
-
 const cardItems = [
     {
         title: 'Canva',
@@ -249,7 +48,48 @@ const cardItems = [
         desc: 'Learn ancient Indian calculation techniques that simplify complex math problems. From basic arithmetic to advanced calculations, discover how to solve problems quickly and efficiently.',
         img: '/images/edprime-exclusive/vedic.png'
     }
-]
+];
+
+const bannerDataOne = [
+    {
+        quote: "Don’t compromise yourself. You’re all you’ve got",
+        author: "Janis Joplin",
+        imageUrl: "/images/edprime-exclusive/course_image2.jpg",
+        bgColor: "#F97316",    // orange
+        textColor: "#FFFFFF",   // white
+    },
+    {
+        quote: "Success is not final; failure is not fatal: It is the courage to continue that counts.",
+        author: "Winston Churchill",
+        imageUrl: "/images/edprime-exclusive/course_image_2.jpg",
+        bgColor: "#2563EB",   // blue
+        textColor: "#FFFFFF",
+    },
+];
+
+const bannerDataTwo = [
+    {
+        quote: "Believe you can and you're halfway there.",
+        author: "Theodore Roosevelt",
+        imageUrl: "/images/edprime-exclusive/course_image1.jpg",
+        bgColor: "#10B981",    // green
+        textColor: "#000000",   // black
+    },
+    {
+        thought: "Thought of the day",
+        quote: "The only limit to our realization of tomorrow is our doubts of today.",
+        author: "Franklin D. Roosevelt",
+        imageUrl: "/images/edprime-exclusive/edprime-scholarships.jpg",
+        bgColor: "#9333EA",    // purple-600
+        textColor: "#FFFFFF",
+    },
+];
+
+const bannerDataThree = [
+    {
+        imageUrl: "/images/edprime-exclusive/edprimestrips.png"
+    },
+];
 
 export default function EdprimeExclusive() {
     const [current, setCurrent] = useState(0);
@@ -271,7 +111,7 @@ export default function EdprimeExclusive() {
     //     }
     // }, [swiperInstance]);
 
-    // Auto-slide every 5 seconds
+    // Auto-slide every 10 seconds
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrent((prev) => (prev === images.length - 1 ? 0 : prev + 1));
@@ -365,7 +205,7 @@ export default function EdprimeExclusive() {
                         </p>
                     </div>
                     {/* Cards Section */}
-                    <LearningCardGrid items={learningItems} />
+                    <LearningCardGrid items={LearningItems} />
                 </div>
             </div>
 
@@ -389,16 +229,22 @@ export default function EdprimeExclusive() {
                 <div className="text-center">
                     <h2 className="text-4xl font-bold mb-5">Online Content</h2>
                     <div className='mb-10'>
-                        <ContentSlider data={onlineSliderData} />
+                        <ContentSlider data={OnlineSliderData} />
                     </div>
+                    {/* Insert the ThoughtSlider here */}
+                    <BannerSlider data={bannerDataOne} />
                     <div className='mb-10'>
-                        <ContentSlider data={otherSliderData} />
+                        <ContentSlider data={OtherSliderData} />
                     </div>
+                    {/* Insert the ThoughtSlider here */}
+                    <BannerSlider data={bannerDataTwo} />
                     <div className='mb-10'>
-                        <ContentSlider data={knowledgeSliderData} />
+                        <ContentSlider data={KnowledgeSliderData} />
                     </div>
+                    {/* Insert the ThoughtSlider here */}
+                    <BannerSlider data={bannerDataThree} />
                     <div className='mb-10'>
-                        <ContentSlider data={contentSliderData} />
+                        <ContentSlider data={ContentSliderData} />
                     </div>
                 </div>
             </div >

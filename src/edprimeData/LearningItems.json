@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Sunokitaab",
+        "desc": "Sunokitaab is India’s largest audio-based learning platform for students. It provides audio-based learning content for school students from classes KG to 12th.",
+        "img": "/images/edprime-exclusive/sunokitaab.png",
+        "url": "https://sunokitaab.com"
+    },
+    {
+        "title": "Basics of Computer",
+        "desc": "Learn Information Technology terminology and basics of computers. This course covers a broad spectrum of Hardware & Software solutions.",
+        "img": "/images/edprime-exclusive/logo-3.png",
+        "url": "https://www.digitalteacher.in/computer-basics"
+    },
+    {
+        "title": "Burlington",
+        "desc": "The Burlington English Read-A-Thon Quest for the Classics has amazing resources to enthuse your children and students right the way through this summer.",
+        "img": "/images/edprime-exclusive/BE-044.png",
+        "url": "https://www.burlingtonenglish.in/"
+    },
+    {
+        "title": "Multibhashi",
+        "desc": "A language learning app cater to the needs of language learners worldwide.",
+        "img": "/images/edprime-exclusive/logo1.png",
+        "url": "https://www.multibhashi.com/"
+    },
+    {
+        "title": "Learn With Comics",
+        "desc": "Have fun learning with our comics! Designed to make learning enjoyable and interactive for students of all ages. Start reading today.",
+        "img": "/images/edprime-exclusive/smallcomics.png",
+        "url": "https://www.learnwithcomics.com/"
+    }
+]
