@@ -19,6 +19,7 @@ import {
 
 // Import SidebarContext to manage sidebar state (expanded, mobile, hovered)
 import { useSidebar } from "../context/SidebarContext";
+import { TbSchool } from "react-icons/tb";
 
 // Define the shape of a navigation item
 type NavItem = {
@@ -41,6 +42,8 @@ const navItems: NavItem[] = [
     icon: <UserCircleIcon />,
     name: "Student",
     subItems: [
+      { name: "Student Profile", path: "/studentprofile", pro: false },
+      { name: "Fee", path: "/fee", pro: false },
       {
         name: "Student Enrollment",
         subItems: [
@@ -52,6 +55,20 @@ const navItems: NavItem[] = [
           { name: "Videos", path: "/videos", pro: false },
         ],
       },
+    ],
+  },
+  {
+    icon: <TbSchool  />,
+    name: "Academics",
+    subItems: [
+      { name: "Attendance", path: "/attendance", pro: false },
+      { name: "Exam Time Table", path: "/", pro: false },
+      { name: "View Syllabus", path: "/syllabus", pro: false },
+      { name: "Performance", path: "/", pro: false },
+      { name: "Online Learning", path: "/", pro: false },
+      { name: "Live Session", path: "/", pro: false },
+      { name: "Class Work", path: "/", pro: false },
+      { name: "Home Work", path: "/", pro: false },
     ],
   },
   {
@@ -81,16 +98,6 @@ const navItems: NavItem[] = [
     icon: <UserCircleIcon />,
     name: "User Profile",
     path: "/profile",
-  },
-  {
-    icon: <UserCircleIcon />,
-    name: "Student Profile",
-    path: "/studentprofile",
-  },
-  {
-    icon: <DollarLineIcon />,
-    name: "Fee",
-    path: "/fee",
   },
 ];
 

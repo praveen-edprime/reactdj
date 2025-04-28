@@ -25,6 +25,8 @@ import SimplePopupExample from "./components/Student/SimplePopupExample.tsx";
 import FormPattern from "./components/Student/FormPattern.tsx";
 import StudentProfile from "./pages/StudentProfile.tsx";
 import Fee from "./pages/Fee.tsx";
+import Attendance from "./pages/Academics/Attendance.tsx";
+import SyllabusDashboard from "./pages/Academics/SyllabusDashboard.tsx";
 
  
 
@@ -48,6 +50,8 @@ export default function App() {
             <Route path="/AcademicSession" element={<AcademicSession />} />
             <Route path="/FormPattern" element={<FormPattern />} />
             <Route path="/SimplePopupExample" element={<SimplePopupExample />} />
+            <Route path="/attendance" element={<Attendance />} />
+            <Route path="/syllabus" element={<SyllabusDashboard />} />
 
 
             <Route path="/calendar" element={<Calendar />} />
