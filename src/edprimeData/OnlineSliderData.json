@@ -2,31 +2,37 @@
     {
         "title": "English",
         "description": "Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
-        "image": "/images/edprime-exclusive/English.jpg"
+        "image": "/images/edprime-exclusive/English.jpg",
+        "url": "/english"
     },
     {
         "title": "Hindi",
         "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
-        "image": "/images/edprime-exclusive/Hindi.jpg"
+        "image": "/images/edprime-exclusive/Hindi.jpg",
+        "url": "/hindi"
     },
     {
         "title": "Mathematics",
         "description": "Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition.",
-        "image": "/images/edprime-exclusive/Mathematics.jpg"
+        "image": "/images/edprime-exclusive/Mathematics.jpg",
+        "url": "/math"
     },
     {
         "title": "Computer",
         "description": "The Computer was born to solve problems that did not exist before. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
-        "image": "/images/edprime-exclusive/Computer.jpg"
+        "image": "/images/edprime-exclusive/Computer.jpg",
+        "url": "/computer"
     },
     {
-        "title": "General Knowledge",
-        "description": "If you have knowledge, let others light their candles in it.A bird doesn't sing because it has an answer, it sings because it has a song. We are not what we know but what we are willing to learn.",
-        "image": "/images/edprime-exclusive/General_Knowledge.jpg"
+        "title": "Green Science and Conservation",
+        "description": "Where we explore eco-friendly practices, protect biodiversity, and learn innovative ways to live in harmony with our planet.If you have knowledge, let others light their candles in it.",
+        "image": "/images/edprime-exclusive/Green_Science_and_Conservation.jpg",
+        "url": "/greenscienceconservation"
     },
     {
         "title": "Poems and Stories",
         "description": "Poem is thoughts that breathe, and words that burn. After nourishment, shelter and companionship, stories are the thing we need most in the world.",
-        "image": "/images/edprime-exclusive/Poem_and_Stories.jpg"
+        "image": "/images/edprime-exclusive/Poem_and_Stories.jpg",
+        "url": "/poemsandstories"
     }
 ]

@@ -1,0 +1,28 @@
+[
+    {
+        "title": "National Means Cum-Merit Scholarship Scheme (NMMSS)",
+        "color": "#ffd700",
+        "description": "The Centrally Sponsored Scheme 'National Means-cum-Merit Scholarship Scheme (NMMSS)' was launched in May 2008.",
+        "deadline": "30th November 2023"
+    },
+    {
+        "title": "Inspire Scholarship",
+        "color": "#6f42c1",
+        "description": "Microsoft INSPIRE aims to encourage meritorious students to study basic and natural sciences at undergraduate level.",
+        "deadline": "9th November 2023",
+        "url": "https://online-inspire.gov.in/"
+    },
+    {
+        "title": "Sitaram Jindal Scholarship",
+        "color": "#ff4d4f",
+        "description": "Sitaram Jindal Scholarship is considered a very beneficial scholarship program sponsored by Sitaram Jindal Foundation.",
+        "deadline": "31st December 2023"
+    },
+    {
+        "title": "Aditya Birla Scholarship Programme",
+        "color": "#007bff",
+        "description": "The aspirational Aditya Birla Scholarship Programme accords significant financial support.",
+        "deadline": "30th December 2023",
+        "url": "https://www.adityabirlascholars.net/our-scholars-2023/"
+    }
+]

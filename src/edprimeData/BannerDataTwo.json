@@ -1,0 +1,17 @@
+[
+    {
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt",
+        "imageUrl": "/images/edprime-exclusive/course_image1.jpg",
+        "bgColor": "#10B981",
+        "textColor": "#000000"
+    },
+    {
+        "thought": "Thought of the day",
+        "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+        "author": "Franklin D. Roosevelt",
+        "imageUrl": "/images/edprime-exclusive/edprime-scholarships.jpg",
+        "bgColor": "#9333EA",
+        "textColor": "#FFFFFF"
+    }
+]

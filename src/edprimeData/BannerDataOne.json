@@ -1,0 +1,16 @@
+[
+    {
+        "quote": "Don’t compromise yourself. You’re all you’ve got",
+        "author": "Janis Joplin",
+        "imageUrl": "/images/edprime-exclusive/course_image2.jpg",
+        "bgColor": "#F97316",
+        "textColor": "#FFFFFF"
+    },
+    {
+        "quote": "Success is not final; failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill",
+        "imageUrl": "/images/edprime-exclusive/course_image_2.jpg",
+        "bgColor": "#2563EB",
+        "textColor": "#FFFFFF"
+    }
+]
