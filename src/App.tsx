@@ -27,6 +27,8 @@ import StudentProfile from "./pages/StudentProfile.tsx";
 import Fee from "./pages/Fee.tsx";
 import Attendance from "./pages/Academics/Attendance.tsx";
 import SyllabusDashboard from "./pages/Academics/SyllabusDashboard.tsx";
+import OnlineLearning from "./pages/Academics/OnlineLearning.tsx";
+import ClassWork from "./pages/Academics/ClassWork.tsx";
 
  
 
@@ -52,6 +54,8 @@ export default function App() {
             <Route path="/SimplePopupExample" element={<SimplePopupExample />} />
             <Route path="/attendance" element={<Attendance />} />
             <Route path="/syllabus" element={<SyllabusDashboard />} />
+            <Route path="/onlinelearning" element={<OnlineLearning />} />
+            <Route path="/classwork" element={<ClassWork />} />
 
 
             <Route path="/calendar" element={<Calendar />} />
