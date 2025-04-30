@@ -1,0 +1,56 @@
+[
+    {
+        "title": "EdPrime Scholarships",
+        "description": "Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/EDPRIME_SCHOLARSHIPS_BANNER.png",
+        "url": "/scholarship"
+    },
+    {
+        "title": "EdPrime Teacher Wellness",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/youtube3.png",
+        "url": "/teacher-wellness"
+    },
+    {
+        "title": "EdPrime Parenting",
+        "description": "Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/youtube2.png",
+        "url": "https://edprime.in/edprime-parenting"
+    },
+    {
+        "title": "Olabs",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/OLABS.png",
+        "url": "https://www.olabs.edu.in/"
+    },
+    {
+        "title": "Eco Warrior",
+        "description": "Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/EcoWarrior.png",
+        "url": "https://edprime.in/eco-warrior"
+    },
+    {
+        "title": "Origami Magic",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/Origami-Magic.jpg",
+        "url": "https://edprime.in/origami-magic"
+    },
+    {
+        "title": "Mental Health",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/MentalHealth-Exclusive.jpg",
+        "url": "https://edprime.in/mental-health"
+    },
+    {
+        "title": "EdPrime Stories",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/EdPrime_Stories.png",
+        "url": "https://worldslargestlesson.globalgoals.org/resource/the-tree-of-hope/"
+    },
+    {
+        "title": "Countingwell",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/COUNTINGWELL_Banner.png",
+        "url": "https://www.countingwell.com/"
+    }
+]

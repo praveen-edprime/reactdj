@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Spelling Bee",
+        "description": "Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/spelling_bee.png",
+        "url": "https://www.vocabulary.com/lists/7915893/bee"
+    },
+    {
+        "title": "Free Audio Stories for kids",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/storynory.jpg",
+        "url": "https://www.storynory.com/"
+    },
+    {
+        "title": "A free typing tutor",
+        "description": "Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/typing.jpg",
+        "url": "https://www.typing.com/"
+    },
+    {
+        "title": "Letter Formation",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/Letter_Formation.jpg",
+        "url": "https://app.lexercise.com/mylexercise/index/index/demo/2c9h67mizr6fhkl8"
+    },
+    {
+        "title": "NCERT Textbooks",
+        "description": "Unleash the power of english for effective communication. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/EcoWarrior.png",
+        "url": "https://ncert.nic.in/textbook.php"
+    },
+    {
+        "title": "Start Coding",
+        "description": "Discover the richness of hindi language and culture. The objective is free exchange of knowledge & can always use this as a digital resource to seek information",
+        "image": "/images/edprime-exclusive/Startcoding_Banner.png",
+        "url": "https://startcoding.co.in/"
+    }
+]

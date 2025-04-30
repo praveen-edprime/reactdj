@@ -30,6 +30,15 @@ import SyllabusDashboard from "./pages/Academics/SyllabusDashboard.tsx";
 import OnlineLearning from "./pages/Academics/OnlineLearning.tsx";
 import ClassWork from "./pages/Academics/ClassWork.tsx";
 
+import EdprimeExclusive from "./pages/EdprimeExclusive/EdprimeExclusive.tsx";
+import English from "./pages/EdprimeExclusive/English.tsx";
+import Hindi from "./pages/EdprimeExclusive/Hindi.tsx";
+import Maths from "./pages/EdprimeExclusive/Maths.tsx";
+import Computer from "./pages/EdprimeExclusive/Computers.tsx";
+import GreenScienceConservation from "./pages/EdprimeExclusive/GreenScienceConservation.tsx";
+import PoemStories from "./pages/EdprimeExclusive/PoemStories.tsx";
+import Scholarships from "./pages/EdprimeExclusive/Scholarships.tsx";
+import TeacherWellness from "./pages/EdprimeExclusive/TeacherWellness.tsx";
  
 
 
@@ -47,6 +56,17 @@ export default function App() {
             <Route path="/profile" element={<UserProfiles />} />
             <Route path="/studentprofile" element={<StudentProfile />} />
             <Route path="/fee" element={<Fee />} />
+            <Route path="/edprime-exclusive" element={<EdprimeExclusive />} />
+            <Route path="/english" element={<English />} />
+            <Route path="/hindi" element={<Hindi />} />
+            <Route path="/math" element={<Maths />} />
+            <Route path="/computer" element={<Computer />} />
+            <Route path="/greenscienceconservation" element={<GreenScienceConservation />} />
+            <Route path="/poemsandstories" element={<PoemStories />} />
+            <Route path="/scholarship" element={<Scholarships />} />
+            <Route path="/teacher-wellness" element={<TeacherWellness />} />
+
+            {/* Components */}
             <Route path="/StudentRegister" element={<StudentRegister />} />
             <Route path="/SearchStudent" element={<SearchStudent />} />
             <Route path="/AcademicSession" element={<AcademicSession />} />

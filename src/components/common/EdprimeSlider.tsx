@@ -1,7 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css'; // Import Swiper styles
- 
+import { useNavigate } from 'react-router';
+
 const sliderData = [
   {
     title: 'Countingwell',
@@ -48,6 +49,13 @@ const sliderData = [
 ];
 
 const EdprimeSlider = () => {
+
+  const navigate = useNavigate();
+
+  const handleExploreEdprimeExclusiveClick = () => {
+    navigate("/edprime-exclusive")
+  }
+
   return (
     <div className="bg-gray-50 py-6 px-4 sm:px-6 rounded-xl mx-auto max-w-7xl">
       <h2 className="text-3xl font-bold text-blue-600 mb-6 text-center">EdPrime Exclusive</h2>
@@ -85,7 +93,9 @@ const EdprimeSlider = () => {
         ))}
       </Swiper>
       <div className="mt-6 text-center">
-        <button className="bg-blue-600 text-white font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200">
+        <button className="bg-blue-600 text-white font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+          onClick={handleExploreEdprimeExclusiveClick}
+        >
           Explore Edprime Exclusive
         </button>
       </div>

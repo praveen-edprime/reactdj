@@ -99,6 +99,11 @@ const navItems: NavItem[] = [
     name: "User Profile",
     path: "/profile",
   },
+  {
+    icon: <img src="/images/logo/EdPrime_uni_logo.png" alt="Edprime Exclusive" style={{ width: '24px', height: '24px' }} />,
+    name: "Edprime Exclusive",
+    path: "/edprime-exclusive",
+  },  
 ];
 
 // Define secondary navigation items (displayed under "Others" section)

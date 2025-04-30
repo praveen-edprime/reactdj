@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Canva",
+        "desc": "Learn Canva: Master the basics of this powerful graphic design tool in our comprehensive tutorial. Ideal for beginners and intermediate users looking to enhance their visual content creation skills.",
+        "img": "/images/edprime-exclusive/Canva.png"
+    },
+    {
+        "title": "Scratch",
+        "desc": "Calling all young coders! Learn to create your own games, animations, and stories using fun building blocks.",
+        "img": "/images/edprime-exclusive/Scratch.png"
+    },
+    {
+        "title": "Vedic Maths",
+        "desc": "Learn ancient Indian calculation techniques that simplify complex math problems. From basic arithmetic to advanced calculations, discover how to solve problems quickly and efficiently.",
+        "img": "/images/edprime-exclusive/vedic.png"
+    }
+]
